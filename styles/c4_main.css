@@ -1,0 +1,33 @@
+/* the styles for the header */
+header h2 {
+	font-size: 170%;
+	color: var(--global-color-1);
+	margin-left: 30px;
+  }
+  
+  header h3 {
+	font-size: 130%;
+	font-style: italic;
+	margin-left: 30px;
+  }
+  
+  /* the styles for links */
+  a:hover {
+	font-style: italic;
+  }
+  
+  /* the styles for the footer */
+  footer p {
+	text-align: center;
+  }
+  
+  /* text shadow for the 75th span */
+  .shadow {
+	text-shadow: 2px 2px 5px #800000;
+  }
+  
+  /* CSS variable */
+  :root {
+	--global-color-1: #800000;
+  }
+  
